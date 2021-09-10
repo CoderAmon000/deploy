@@ -159,7 +159,7 @@ body{
     }
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 500px){
     *{
         transition: 1s;
     }
@@ -179,6 +179,21 @@ body{
     }
 
     .header > *{
-        padding-top: 35px;
+        padding-top: 45px;
+    }
+
+    .welcome{
+        margin-left: 25px;
+    }
+    
+    .welcome > .txtContent__welcome{
+        margin-top: -100px;
+        margin-left: 25px;
+        color: white;
+        font-family: light;
+        font-size: 20pt;
+        filter: drop-shadow(0px 0px 10px black);
+        text-shadow: 1.3px 1.3px black;
+        transition: 1s;
     }
 }
